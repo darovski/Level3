@@ -14,8 +14,8 @@ icon = pygame.image.load("image/tir.gif")
 pygame.display.set_icon(icon)
 
 target_image = pygame.image.load("image/strelok.png")
-target_width = 100
-target_height = 100
+target_width = 120
+target_height = 120
 
 target_x = random.randint(0, SCREEN_WIDTH - target_width)
 target_y = random.randint(0, SCREEN_HEIGHT- target_height)
